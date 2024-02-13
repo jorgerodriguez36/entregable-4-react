@@ -1,0 +1,45 @@
+.form_background {
+    background-color: rgba(0, 0, 0, 0);
+    position: fixed;
+    top: 0; 
+    z-index: 10;
+    min-height: 100vh;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    backdrop-filter: blur(2px);
+    transform: scale(0);
+    transition: transform .25s;
+}
+.form_background.able {
+    transform: scale(1);
+    transition: transform .25s;
+}
+.form_container {
+    background-color: rgb(218, 211, 211);
+    padding: 25px;
+    border-radius: 20px;
+    display: flex;
+    max-width: 40%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+
+}
+.form_close {
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    right: 10px;
+    font-size: 25px;
+}
+.form_close:hover {
+    color: black;
+}
+.form_title {
+    text-align: center;
+}

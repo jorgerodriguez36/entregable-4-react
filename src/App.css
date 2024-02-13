@@ -1,0 +1,23 @@
+body {
+  background-color: black;
+  color: rgb(3, 5, 136);
+  display: flex;
+  flex-wrap: wrap; 
+}
+.app_nuevousuario {
+  position: absolute;
+  cursor: pointer;
+  top: 10px;
+  right: 10px;
+  font-size: 15px;
+  background-color: rgb(40, 4, 73);
+  color: rgb(245, 157, 50);
+}
+.container_padre {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  border-style: solid;
+  border-width: 1px;
+  background-color: lightgray;
+}
